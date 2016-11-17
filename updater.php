@@ -1,7 +1,9 @@
-private $username;
-private $repository;
-private $authorize_token;
-private $github_response;
+<?php
+class Smashing_Updater {
+  private $username;
+  private $repository;
+  private $authorize_token;
+  private $github_response;
 
 public function set_username( $username ) {
   $this->username = $username;
@@ -36,3 +38,5 @@ private function get_repository_info() {
     $this->github_response = $response; // Set it to our property  
   }
 }
+}
+?>

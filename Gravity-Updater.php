@@ -1,4 +1,4 @@
-class Gravity_Updater {
+/*class Gravity_Updater {
   protected $file;
   protected $plugin;
   protected $basename;
@@ -15,4 +15,4 @@ class Gravity_Updater {
     $this->basename = plugin_basename( $this->file );
     $this->active   = is_plugin_active( $this->basename );
   }
-}
+}*/

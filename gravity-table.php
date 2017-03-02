@@ -18,7 +18,6 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if this file is accessed directly
 include( plugin_dir_path( __FILE__ ) .  'includes/admin-view.php'); */
 if( ! class_exists( 'Gravity_table_update' ) )
 {
-	 
 	include_once plugin_dir_path( __FILE__ ) .'include/gtv_update.php';
 }
 
